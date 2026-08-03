@@ -84,3 +84,27 @@ body {
 .status.error {
   color: #c0392b;
 }
+
+.barcode-hint {
+  margin-top: 4px;
+  font-size: 11px;
+  color: #aaa;
+  font-family: monospace;
+}
+
+.scan-banner {
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.scan-banner--ok {
+  background: #e6f4ec;
+  color: #1e6b45;
+}
+
+.scan-banner--error {
+  background: #fbe9e7;
+  color: #c0392b;
+}
